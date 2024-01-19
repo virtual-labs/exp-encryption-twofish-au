@@ -1,4 +1,4 @@
-# Twofish Encryption Simulation Experiment
+# Twofish Encryption Simulation Procedure
 
 ## Objective
 The objective of this experiment is to simulate the Twofish encryption algorithm and provide students with a visual understanding of the internal workings of the encryption process. Participants will enter a plain text message, which will be internally converted to its corresponding 128-bit binary and hexa-decimal representation. The message will then undergo the standard 16-round Twofish algorithm, and students will be able to view the internal workings for each round.
