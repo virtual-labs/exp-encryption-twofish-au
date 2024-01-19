@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/exp-encryption-plaintext-using-twofish-algorithm-au/simulation/static/css/main.bb25d784.css",
+    "main.js": "/exp-encryption-plaintext-using-twofish-algorithm-au/simulation/static/js/main.4b670489.js",
+    "static/js/787.847fecfe.chunk.js": "/exp-encryption-plaintext-using-twofish-algorithm-au/simulation/static/js/787.847fecfe.chunk.js",
+    "index.html": "/exp-encryption-plaintext-using-twofish-algorithm-au/simulation/index.html",
+    "main.bb25d784.css.map": "/exp-encryption-plaintext-using-twofish-algorithm-au/simulation/static/css/main.bb25d784.css.map",
+    "main.4b670489.js.map": "/exp-encryption-plaintext-using-twofish-algorithm-au/simulation/static/js/main.4b670489.js.map",
+    "787.847fecfe.chunk.js.map": "/exp-encryption-plaintext-using-twofish-algorithm-au/simulation/static/js/787.847fecfe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb25d784.css",
+    "static/js/main.4b670489.js"
+  ]
+}
