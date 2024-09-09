@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the initial step in the Twofish encryption process?",
+      "answers": {
+        "a": "Block Division",
+        "b": "Whitening",
+        "c": "Key Generation",
+        "d": "Feistel Network Structure"
+      },
+      "explanations": {
+        "a": "Incorrect. Block Division occurs after the initial step in the Twofish encryption process.",
+        "b": "Incorrect. Whitening is a process that follows the initial step in Twofish encryption.",
+        "c": "Correct. Key Generation is the first step in the Twofish encryption process.",
+        "d": "Incorrect. Feistel Network Structure is part of the later encryption rounds."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "How does the whitening process enhance the security of the plaintext?",
+      "answers": {
+        "a": "Bitwise XOR with a subkey",
+        "b": "Bitwise AND with a subkey",
+        "c": "Bitwise OR with a subkey",
+        "d": "Bitwise NOT with a subkey"
+      },
+      "explanations": {
+        "a": "Correct. Whitening involves bitwise XOR with a subkey to enhance security.",
+        "b": "Incorrect. Whitening does not involve bitwise AND with a subkey.",
+        "c": "Incorrect. Whitening does not involve bitwise OR with a subkey.",
+        "d": "Incorrect. Whitening does not involve bitwise NOT with a subkey."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which network structure does Twofish use for encryption?",
+      "answers": {
+        "a": "Substitution-Permutation Network",
+        "b": "Feistel Network",
+        "c": "Transposition Network",
+        "d": "Key Expansion Network"
+      },
+      "explanations": {
+        "a": "Incorrect. Twofish uses a Feistel Network structure, not Substitution-Permutation Network.",
+        "b": "Correct. Twofish utilizes a Feistel Network structure for encryption.",
+        "c": "Incorrect. Twofish does not use a Transposition Network for encryption.",
+        "d": "Incorrect. Twofish does not use a Key Expansion Network for encryption."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    }
+  ]
+}

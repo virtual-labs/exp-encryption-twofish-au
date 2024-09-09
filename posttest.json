@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What does the F function in Twofish involve?",
+      "answers": {
+        "a": "Bitwise XOR only",
+        "b": "Substitution-permutation networks, key mixing, and bitwise operations",
+        "c": "Modular addition only",
+        "d": "Feistel network structure"
+      },
+      "explanations": {
+        "a": "Incorrect. The F function in Twofish involves more than just bitwise XOR.",
+        "b": "Correct. The F function in Twofish is a complex combination of operations.",
+        "c": "Incorrect. The F function involves more than just modular addition.",
+        "d": "Incorrect. The F function does not solely rely on the Feistel network structure."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What is the purpose of the Mixing and Swapping step in Twofish?",
+      "answers": {
+        "a": "To add an extra layer of security",
+        "b": "To ensure both halves contribute to the final output",
+        "c": "To perform key mixing",
+        "d": "To divide the block into fixed-size blocks"
+      },
+      "explanations": {
+        "a": "Incorrect. The purpose of Mixing and Swapping is not to add an extra layer of security.",
+        "b": "Correct. Mixing and Swapping ensures both halves contribute to the final output.",
+        "c": "Incorrect. Key mixing is a separate step in Twofish.",
+        "d": "Incorrect. Dividing the block into fixed-size blocks is done in the Block Division step."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What is the size of the blocks Twofish operates on?",
+      "answers": {
+        "a": "64 bits",
+        "b": "128 bits",
+        "c": "256 bits",
+        "d": "512 bits"
+      },
+      "explanations": {
+        "a": "Incorrect. Twofish operates on blocks larger than 64 bits.",
+        "b": "Correct. Twofish operates on 128-bit blocks.",
+        "c": "Incorrect. Twofish does not operate on 256-bit blocks.",
+        "d": "Incorrect. Twofish does not operate on 512-bit blocks."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    }
+  ]
+}
