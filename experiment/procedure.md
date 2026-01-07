@@ -1,33 +1,17 @@
-# Twofish Encryption Simulation Procedure
+# Experiment 7: Encryption of Plaintext Using Twofish Algorithm
 
-## Objective
-The objective of this experiment is to simulate the Twofish encryption algorithm and provide students with a visual understanding of the internal workings of the encryption process. Participants will enter a plain text message, which will be internally converted to its corresponding 128-bit binary and hexa-decimal representation. The message will then undergo the standard 16-round Twofish algorithm, and students will be able to view the internal workings for each round.
+## Procedure
 
-## Experimental Setup
+Welcome to the Twofish Encryption Simulator! Dive into the internal mechanisms of the Twofish algorithm and gain a clear, visual understanding of its 16-round encryption process.
 
-### Input
-1. Students input a 16-character plain text message.
+→ Begin by entering a 16-character plain text message. This input will automatically be transformed into its corresponding 128-bit binary format.
 
-### Conversion
-2. The entered plain text message is internally converted to the corresponding 128-bit binary representation.
-3. The binary representation is further converted to its hexa-decimal representation.
+→ Navigate effortlessly using the “next” and “previous” buttons. These controls guide you through each stage of the Twofish encryption procedure, allowing you to observe every transformation step-by-step.
 
-### Twofish Encryption
-4. The hexa-decimal message is fed into the standard 16-round Twofish algorithm.
-5. Each round involves a series of predefined calculations.
+→ Explore the conversion process. Your plain text is first converted into 128-bit binary and then into its hexadecimal representation. By clicking the appropriate buttons, students can view and understand these internal data transformations with clarity.
 
-### Visualization
-6. Hexa-decimal data is represented as a matrix for better understanding.
-7. Each step of the encryption process is clearly visualized to aid student comprehension.
+→ Visualize the hexadecimal data as a matrix, simplifying interpretation and helping you avoid the complexity of long, continuous data sequences.
 
-### User Interaction
-8. Students can click provided buttons to view the internal workings of the encryption process for each round.
+→ Progress through the 16 rounds of the Twofish algorithm. At each stage, the simulator reveals the internal calculations for rounds 1 through k. Students are then challenged to determine the (k+1)th intermediate result. Provide the correct value, and the simulator will display the remaining rounds of the encryption process.
 
-### Intermediate Result
-9. Participants will be asked to calculate the (k+1)th intermediate result after the first k rounds.
-
-### Evaluation
-10. If the student provides the correct answer, the remainder of the simulation will be shown.
-
-## Conclusion
-This experiment aims to enhance students' understanding of the Twofish encryption algorithm by providing a hands-on, visual representation of the process. The interactive nature of the simulation encourages active participation and reinforces theoretical knowledge.
+→ Reinforce your understanding with interactive visualization. Every internal step—from data representation to round operations—is clearly animated. A “Previous” button ensures you can revisit any stage for repeated practice and deeper comprehension.

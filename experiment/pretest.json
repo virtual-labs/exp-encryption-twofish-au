@@ -51,6 +51,57 @@
       },
       "correctAnswer": "b",
       "difficulty": "intermediate"
+    },
+        {
+      "question": "What is the block size of Twofish?",
+      "answers": {
+        "a": "64 bits",
+        "b": "128 bits",
+        "c": "192 bits",
+        "d": "256 bits"
+      },
+      "explanations": {
+        "a": "Incorrect. Twofish does not use a block size of 64 bits.",
+        "b": "Correct. Twofish operates on a block size of 128 bits.",
+        "c": "Incorrect. Twofish does not use a block size of 192 bits.",
+        "d": "Incorrect. Twofish does not use a block size of 256 bits."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+        {
+      "question": "How many rounds are used in the Twofish encryption process?",
+      "answers": {
+        "a": "8 rounds",
+        "b": "10 rounds",
+        "c": "16 rounds",
+        "d": "32 rounds"
+      },
+      "explanations": {
+        "a": "Incorrect. Twofish does not use 8 rounds.",
+        "b": "Incorrect. Twofish does not use 10 rounds.",
+        "c": "Correct. Twofish uses 16 rounds in its encryption process.",
+        "d": "Incorrect. Twofish does not use 32 rounds."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+            {
+      "question": "Which of the following is unique about Twofish compared to other block ciphers?",
+      "answers": {
+        "a": "Uses key-dependent S-boxes",
+        "b": "Uses a fixed S-box only",
+        "c": "Does not use XOR operations",
+        "d": "Operates on variable block sizes only"
+      },
+      "explanations": {
+        "a": "Correct. Twofish uses key-dependent S-boxes, which is a unique feature compared to other block ciphers.",
+        "b": "Incorrect. Twofish does not use a fixed S-box only; it uses key-dependent S-boxes.",
+        "c": "Incorrect. Twofish does use XOR operations in its encryption process.",
+        "d": "Incorrect. Twofish operates on a fixed block size of 128 bits, not variable block sizes."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
     }
   ]
 }
