@@ -51,6 +51,57 @@
       },
       "correctAnswer": "b",
       "difficulty": "advanced"
+    },
+        {
+      "question": "What is the purpose of key whitening in Twofish?",
+      "answers": {
+        "a": "To swap the halves of plaintext",
+        "b": "To XOR the plaintext with subkeys before and after rounds",
+        "c": "To generate random numbers",
+        "d": "To reduce encryption time"
+      },
+      "explanations": {
+        "a": "Incorrect. Swapping halves is part of the Mixing and Swapping step, not key whitening.",
+        "b": "Correct. Key whitening involves XORing the plaintext with subkeys before and after rounds.",
+        "c": "Incorrect. Key whitening does not generate random numbers.",
+        "d": "Incorrect. Key whitening is not primarily aimed at reducing encryption time."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+        {
+      "question": "Twofish provides security mainly due to:",
+      "answers": {
+        "a": "Large block size only",
+        "b": "Key-dependent S-boxes and MDS matrix operations",
+        "c": "Single-round encryption",
+        "d": "Public key cryptography principles"
+      },
+      "explanations": {
+        "a": "Incorrect. Large block size alone does not ensure security.",
+        "b": "Correct. Twofish's security is enhanced by key-dependent S-boxes and MDS matrix operations.",
+        "c": "Incorrect. Twofish uses multiple rounds of encryption.",
+        "d": "Incorrect. Twofish is a symmetric key algorithm, not based on public key principles."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+        {
+      "question": "Which operation is NOT part of the Twofish encryption process?",
+      "answers": {
+        "a": "Key Whitening",
+        "b": "F-function with modular addition and XOR",
+        "c": "InvSubBytes",
+        "d": "MDS matrix multiplication"
+      },
+      "explanations": {
+        "a": "Incorrect. Key Whitening is part of the Twofish encryption process.",
+        "b": "Incorrect. The F-function is a core component of Twofish.",
+        "c": "Correct. InvSubBytes is not part of Twofish; it is used in AES.",
+        "d": "Incorrect. MDS matrix multiplication is part of the Twofish process."
+      },
+      "correctAnswer": "c",
+      "difficulty": "advanced"
     }
   ]
 }
