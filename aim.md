@@ -1,0 +1,2 @@
+### Aim of the experiment
+To understand and implement the complete encryption process of the Twofish algorithm by converting plaintext into ciphertext. This includes studying its key-dependent S-boxes, Feistel network structure, key schedule generation, MDS matrix operations, whitening steps, and round functions. The experiment aims to provide practical insight into how Twofish achieves high security, efficiency, and flexibility through its advanced cryptographic design.
