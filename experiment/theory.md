@@ -1,6 +1,6 @@
-# Experiment 7: Encryption of Plaintext Using Twofish Algorithm
 
-## Twofish Algorithm Encryption Process
+
+### Twofish Algorithm Encryption Process
 
 Twofish is a symmetric key block cipher designed as a finalist for the AES competition. It operates on 128-bit blocks and supports key sizes of 128, 192, or 256 bits. Twofish uses a 16-round Feistel network, combining high security with efficiency. Its design includes key-dependent S-boxes, a Maximum Distance Separable (MDS) matrix, and modular arithmetic to provide strong diffusion and confusion, making it resistant to known attacks like linear and differential cryptanalysis.
 

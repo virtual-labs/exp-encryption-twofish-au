@@ -1,6 +1,6 @@
-# Experiment 7: Encryption of Plaintext Using Twofish Algorithm
 
-## Procedure
+
+### Procedure
 
 Welcome to the Twofish Encryption Simulator! Dive into the internal mechanisms of the Twofish algorithm and gain a clear, visual understanding of its 16-round encryption process.
 
